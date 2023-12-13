@@ -1,29 +1,11 @@
-* {
-	cursor: url("immagini/cursors/cursor_point.png"), auto;
-}
 
-body {
+* { cursor: url("immagini/cursors/cursor_point.png"), auto; }
 
-	background: url("immagini/sfondo_spazio.png");
-}
+body { background: url("immagini/sfondo_spazio.png"); }
 
-/*h2:hover {
-	cursor: url("immagini/cursors/cursor_pick3.png"), auto;
-}
+.menu1:hover, .menu2:hover, .menu3:hover, .menu4:hover { transform: scale(1.1); }
 
-h1:hover {
-	cursor: url("immagini/cursors/cursor_pick3.png"), auto;
-}*/
-
-.menu1:hover,
-.menu2:hover,
-.menu3:hover,
-.menu4:hover {
-	transform: scale(1.1);
-}
-
-
-/* --------------------- fonts ------------------------*/
+/*-- fonts --*/
 
 @font-face {
 	font-family: 'karmatic_arcaderegular';
@@ -42,73 +24,7 @@ h1:hover {
 
 }
 
-/* ---------------------keyframes-images------------------------*/
-
-@keyframes occhio1 {
-	0% {
-		left: 8.784vw;
-		top: 7.256vh;
-	}
-
-	35% {
-		left: 173.402vw;
-		top: 6.702vh;
-	}
-
-	75% {
-		left: 94.524vw;
-		top: 26.809vh;
-	}
-
-	100% {
-		left: 15.645vw;
-		top: 6.702vh;
-		transform: rotate(720deg);
-	}
-}
-
-@keyframes occhio2 {
-	0% {
-		left: 1330px;
-		top: 200px;
-	}
-
-	35% {
-		left: 120px;
-		top: 200px;
-	}
-
-	75% {
-		left: 725px;
-		top: 50px;
-	}
-
-	100% {
-		left: 1330px;
-		top: 200px;
-		transform: rotate(720deg);
-	}
-}
-
-.occhio1 {
-	position: absolute;
-	width: 6vw;
-	animation-name: occhio1;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: linear;
-}
-
-.occhio2 {
-	position: absolute;
-	width: 6vw;
-	animation-name: occhio2;
-	animation-duration: 3.5s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: linear;
-}
+/*-- immagini --*/
 
 .mano_sx {
 	position: absolute;
@@ -126,7 +42,6 @@ h1:hover {
 
 .nuvola1 {
 	width: 62vw;
-	/*750px*/
 	position: absolute;
 	top: 0vw;
 	left: 18vw;
@@ -164,7 +79,7 @@ h1:hover {
 	filter: brightness(70%);
 }
 
-/* --------------------- text ------------------------*/
+/*-- testo --*/
 .titolo {
 	font-family: 'karmatic_arcaderegular';
 	color: #130f1f;
@@ -181,65 +96,44 @@ h1:hover {
 .menu2,
 .menu3,
 .menu4 {
-
 	color: #d1d1d1;
 	position: absolute;
 	font-size: 1.6vw;
-
 	top: 23vw;
-
 	letter-spacing: 0.3vw;
 	font-family: 'karmatic_arcaderegular';
 }
 
-.menu1 {
-	left: 23vw;
-text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #23b89f, 0 0 0.8976vw white;
-}
+.menu1 { left: 23vw; text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #23b89f, 0 0 0.8976vw white; }
 
-.menu2 {
-	left: 33vw;
-	text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #867e23, 0 0 0.8976vw white;
-}
+.menu2 { left: 33vw; text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #867e23, 0 0 0.8976vw white; }
 
-.menu3 {
-	left: 50vw;
-	text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #d06767, 0 0 0.8976vw white;
-}
+.menu3 { left: 50vw; text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #d06767, 0 0 0.8976vw white; }
 
-.menu4 {
-	left: 69vw;
-	text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #2619d7, 0 0 0.8976vw white;
-}
+.menu4 { left: 69vw; text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #2619d7, 0 0 0.8976vw white; }
 
 
 #container {
-
 	position: absolute;
 	top: 65vh;
 	width: 84vw;
 	left: 8vw;
-
 	font-family: 'minecraftiaregular';
 	font-size: 17px;
-	/*text-shadow: 3px 3px 4px black, 0 0 30px #c4c4c4, 0 0 10px #bababa;*/
 	color: #d1d1d1;
 }
 
 #la_storia {
 	position: relative;
 	width: 100%;
-
 	white-space: normal;
 	overflow: hidden;
 	word-wrap: break-word;
 }
 
 #info {
-
 	position: relative;
 	width: 100%;
-
 	white-space: normal;
 	overflow: hidden;
 	word-wrap: break-word;
@@ -248,7 +142,6 @@ text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #23b89f, 0 0 0.8976vw wh
 #interviste {
 	position: relative;
 	width: 100%;
-
 	white-space: normal;
 	overflow: hidden;
 	word-wrap: break-word;
@@ -257,7 +150,6 @@ text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #23b89f, 0 0 0.8976vw wh
 #news {
 	position: relative;
 	width: 100%;
-
 	white-space: normal;
 	overflow: hidden;
 	word-wrap: break-word;
@@ -268,6 +160,8 @@ text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #23b89f, 0 0 0.8976vw wh
 }
 
 .grid-container {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
 	display: grid;
 	grid-template-columns: auto auto ;
 	padding: 10px;
@@ -275,7 +169,6 @@ text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw #23b89f, 0 0 0.8976vw wh
 
 .grid-item {
 	color: black;
-	background-color: rgba(255, 255, 255, 0.8);
 	padding: 10px;
 	font-size: 17px;
 	text-align: center;
