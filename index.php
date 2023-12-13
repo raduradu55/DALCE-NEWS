@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
 		<title> DALCE-NEWS </title>
 	</head>
-<!--holahalamma alhemme hole-->
+
 	<body>
 
 		<?php
@@ -28,6 +28,7 @@
 		</div>
 		
 		<?php
+		//asf;lioehfoiusdhxoif;
 			}	
 		?>
 
