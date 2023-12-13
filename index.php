@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
 		<title> DALCE-NEWS </title>
 	</head>
-<!--holahalamma alhemme hole-->
+
 	<body>
 <center>
 
@@ -30,6 +30,7 @@
 		</div>
 		
 		<?php
+		//radu imprenditore amatoriale halemm abdal;
 			}	
 		?>
 
