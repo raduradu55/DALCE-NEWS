@@ -8,10 +8,12 @@
 	</head>
 <!--holahalamma alhemme hole-->
 	<body>
+<center>
 
 		<?php
 			function menu(){
 		?>
+<!-----------------------------------MENU----------------------------------->
 		<div>
 			<a href="index.php?sezione=info">
 				<h2 class="menu1">INFO</h2>
@@ -31,7 +33,7 @@
 			}	
 		?>
 
-		<!-- sfondo -->
+		<!--------------------------- sfondo ----------------------------------->
 		<div>
 			<img id="nuvola3" src="immagini/nuvola3.png">
 			<img id="luna" src="immagini/roba_spazio/luna.png">
@@ -39,30 +41,32 @@
 			<img id="pianeta1" src="immagini/roba_spazio/pianeta1.png">
 		</div>
 
-		<!-- sezione iniziale -->
+		<!---------------------------sezione iniziale ------------------------------>
 		<div>
 			<img class="nuvola1" src="immagini/nuvola1.png">
 			<img class="mano_sx" src="immagini/mano_sinistra.png">
 			<img class="mano_dx" src="immagini/mano_destra.png">
-			<h1 class="titolo"> DALCE-NEWS </h1>
+
+		<!----------------------- TITOLO ---------------------------------->
+			<h1 class="titolo" style="text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw white, 0 0 0.8976vw white;"> DALCE-NEWS </h1>
 		</div>	
 
 		<!-- menù -->
-		<center>
+		
 			<?php
 				menu();
 			?>
 
-		</center>
+		
 
 		<?php
 
 			if(isset($_GET["sezione"])){
-			//INFO
+			//-------------------------------INFO-------------------------------------------
 			if($_GET["sezione"]=="info"){
 		?>
 
-		<center>
+	
 
 			<div id="container">
 
@@ -73,18 +77,17 @@
 
 			</div>
 
-		</center>
+		
 
 		<?php
 			}
 
-			//STORIA
+			//------------------------------------------STORIA---------------------------------------------
 			if($_GET["sezione"]=="storia"){
 		?>
 		
 
-
-		<center>
+		
 
 			<div id="container">
 
@@ -95,22 +98,22 @@
 
 			</div>
 
-		</center>
+		
 		
 		<?php
 			}
 			
-			//INTERVISTE
+			//-----------------------------------------INTERVISTE--------------------------------------
 			if($_GET["sezione"]=="interviste"){
 		?>
 
 		<div id="container">
-		<center>
+		
 			<div id="interviste">
 				<h2 style="text-shadow: 3px 3px 5px black, 0 0 30px #d06767, 0 0 10px #ffffff">--# INTERVISTE #-- </h2>
-
-				<div>
-					<!-- Intervista Ariton -->
+<!-----------------------------------------INTERVISTE------------------------------------------------->
+			<div>
+					<!------------- Intervista Ariton ---------------->
 					<p> <b> Intervista al rappresentante di istituto Leonardo Ariton: </b> </p>
 
 					<div class="grid-container">
@@ -148,7 +151,7 @@
 				</div>
 				<br><br>
 
-				<!-- Intervista Mara -->
+				<!--------------------- Intervista Mara ----------------------->
 				<div>
 					<p> <b> Intervista alla bidella Mara: </b> </p>
 
@@ -195,21 +198,17 @@
 							<b> Mara </b>: Molto educati, sono contenta e soddisfatta. <br>
 						</div>
 					</div>
-
 				</div>
-			</div>
-		
-		</center>
+			</div>		
 		</div>
+	
+
 
 		<?php
 			}
-			//NEWS
+			//-----------------------------------------NEWS---------------------------------------------
 			if($_GET["sezione"]=="news"){
 		?>
-
-		<center>
-
 			<div id="container">
 
 				<div id="info">
@@ -218,13 +217,10 @@
 				</div>
 
 			</div>
-
-
-		</center>
-
 		<?php
 			}
 			}
 		?>
+		</center>
 	</body>
 </html>

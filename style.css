@@ -83,7 +83,8 @@ body { background: url("immagini/sfondo_spazio.png"); }
 .titolo {
 	font-family: 'karmatic_arcaderegular';
 	color: #130f1f;
-	text-shadow: 0.269vw 0.269vw 0.449vw black, 0 0 4.488vw white, 0 0 0.8976vw white;
+	
+	
 	font-size: 7vw;
 	position: absolute;
 	top: 4.7vw;
