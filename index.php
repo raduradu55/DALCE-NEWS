@@ -104,7 +104,7 @@
 		<?php
 			}
 			
-			//-----------------------------------------INTERVISTE--------------------------------------
+//------------------------------------------------INTERVISTE------------------------------------------------------------
 			if($_GET["sezione"]=="interviste"){
 		?>
 
@@ -112,7 +112,7 @@
 		
 			<div id="interviste">
 				<h2 style="text-shadow: 3px 3px 5px black, 0 0 30px #d06767, 0 0 10px #ffffff">--# INTERVISTE #-- </h2>
-<!-----------------------------------------INTERVISTE------------------------------------------------->
+				
 			<div>
 					<!------------- Intervista Ariton ---------------->
 					<p> <b> Intervista al rappresentante di istituto Leonardo Ariton: </b> </p>
