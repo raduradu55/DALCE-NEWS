@@ -1,9 +1,0 @@
-
-@font-face {
-	font-family: 'karmatic_arcaderegular';
-	src: url('ka1.woff2') format('woff2'),
-		 url('ka1.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
-}
